@@ -6,8 +6,11 @@ header{
 }
 
 nav {
-    background-color: 1rem #b8b8aa;
-    box-shadow: 1rem 1rem 1rem .2rem #534d41;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 500;
+    color: #363845;
+    background-color: #b8b8aa;
+    box-shadow: 1rem 1rem 2.5rem .2rem #534d41;
     width: 100%;
     height: 8%;
     margin: 1rem;
@@ -15,16 +18,19 @@ nav {
 }
 
 ul {
-    background-color: 1rem #b8b8aa;
+    color: 1rem #b8b8aa;
     display: inline-flex;
     list-style-type: none;
-    margin: 1rem;
-    padding: 0;
+    margin: .2rem;
+    padding: .1rem;
+    
+
 }
 
 li {
     padding: 2rem;
     position: relative;
+    
 }
 
 body {
